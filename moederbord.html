@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dit is Mijn Website</title>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="img/logo6.jpg"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Wat?</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Wie?</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="image" src="img/kermit2.png">
+			<div class="carousel-caption">
+				<h1 class="display-2">Ola</h1>
+				<h3>Het 3-Lagenmodel</h3>
+				<button type="button"  onclick="alert ('hoe ging die knal?')" class="btn btn-outline-light btn-lg">Biem</button>
+				<button type="button" onclick="alert ('boem tussenwerpsel een nabootsing van een inslag of ontploffing Voorbeeld:   `We stonden ernaar te kijken en, boem!, er vloog een auto bovenop')" class="btn btn-primary btn-lg">Boem</button>
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">Ja, jij! Je zit nu op mijn website</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="index.html"><button type="button" class="btn btn-outline-secondary
+			btn-lg">Home pagina</button></a>
+		</div>
+	</div>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">PimPamPet</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">Andere projecten die ik gemaakt heb.</p>
+		</div>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-code"></i>
+			<h3>Project 1</h3>
+			<a button type="button"  class="btn btn-primary btn-lg" href=Project1.html>Iets</a> 
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-bold"></i>
+			<h3>Project 2</h3>
+			<p>Moet ook nog komen.</p>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<i class="fab fa-css3"></i>
+			<h3>Project 3</h3>
+			<p>Ja, je raad het al deze moet ook nog komen.</p>
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Two Column Section 
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>If you build it...</h2>
+			<p>The columns will automatically stack on each other when
+				the screen is less than 576px wide.</p>
+			<p>Resize the browserwindow to see the effect. Responsive web
+				design has become more important as the amount of mobile traffic now
+				accounts for more than half of total internet traffic.</p>
+			<p>It can also display the web page differently depending on the
+				screen size or viewing device.</p>
+				<br>
+				<a href="#" class="btn btn-primary">Learn More</a>
+		</div>
+		<div class="col-lg-6">
+			<img src="img/desk.png" class="img-fluid">
+		</div>
+	</div>
+</div>
+<hr class="my-4"> -->
+
+
+<!--- Meet the team -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Het 3-Lagenmodel</h1>
+		</div>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/team1.png">
+				<div class="card-body">
+					<h4 class="card-title">De fysieke laag</h4>
+					<p class="card-text">info
+					</p>
+					<a href="#" class="btn btn-outline-secondary">info</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/team2.png">
+				<div class="card-body">
+					<h4 class="card-title">De logische laag</h4>
+					<p class="card-text">info</p>
+					<a href="#" class="btn btn-outline-secondary">info</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/team3.png">
+				<div class="card-body">
+					<h4 class="card-title">De logische laag</h4>
+					<p class="card-text">info</p>
+					<a href="#" class="btn btn-outline-secondary">info</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>info</h2>
+			<p>info</p>
+			<p>info
+			</p>
+
+		</div>
+		<div class="col-lg-6">
+			<img src="img/kate.png" class="img-fluid">
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Socials for some reason</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+		<div class="row text-center">
+			<div class="col-md-4 pt-0">
+				<div class="footer-image">
+				<img src="img/https://media.istockphoto.com/vectors/racoon-flat-icon-isolated-on-white-background-vector-id1294209959?k=20&m=1294209959&s=612x612&w=0&h=gIofTAPB6WWV8vzZhRq80QJEOF4UH2A2UUhTuKrzh54="></div>
+				<hr class="light">
+				<p>Ja mijn nummer krijg je niet</p>
+				<p>119013@vl...............nl</p>
+				<p>Appolo of zoiets</p>
+				<p>Banglasesh, Zuid-Holland, 739</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Werk uren i guess</h5>
+				<hr class="light">
+				<p>Maandag: Lig nog in bed</p>
+				<p>Dinsdag: Ben niet thuis</p>
+				<p>Woensdag: Te lui om iets te doen</p>
+				<p>Donderdag: 12;55 - 14;35</p>
+				<p>Vrijdag: Bijna weekend</p>
+				<p>Zaterdag: Pfff het is weekend </p>
+				<p>Zondag: Gesloten</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Waar?</h5>
+				<hr class="light">
+				<p>School</p>
+				
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; Mijn website </h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
